@@ -1,0 +1,196 @@
+.logo h3{
+    color:#000000;
+    font-family: "SF Pro Display";
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 32px;
+cursor: pointer;
+}
+
+body{
+    background-color: #e5e5e5;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 475px;  
+    z-index: 2;
+}
+
+.navbar p{
+    font-family: "SF Pro Display";
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 130%;
+cursor: pointer;
+}
+
+.login{
+    font-family: "SF Pro Display";
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 130%;
+
+display:flex;
+align-self: center;
+justify-content: center;
+
+cursor: pointer;
+z-index: 2;
+}
+
+.login p{
+    padding: 0 0 0 8px;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.layout{
+    margin: 0 auto;
+    width: 1440px;
+    height: 100%;
+    background-color: #fff;
+    position: relative;
+}
+.container{
+    margin: 0 auto;
+    width: 1110px;
+}
+
+.content h1{
+    font-family: "Inter";
+font-style: normal;
+font-weight: bold;
+font-size: 56px;
+line-height: 40px;
+margin-bottom: 30px;
+x: 12;
+}
+.content{
+    margin-top: 161px;
+    z-index: 2;
+}
+.content p{
+    font-family: "SF Pro Display";
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 130%;
+margin-bottom: 50px;
+width: 350px;
+x: 1;
+}
+
+.content button {
+    background-color: #2568EF;
+    width: 230px;
+    height: 56px;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+
+    font-family: "PT Root UI";
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 28px;
+x: 1;
+}
+
+.wrap{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+
+    margin-bottom: 237px;
+}
+.card{
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.05);
+border-radius: 16px;
+width: 350px;
+height: 422px;
+}
+
+.card h3{
+    font-family: "SF Pro Display";
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 32px;
+}
+
+.card .primary{
+    font-family: "SF Pro Display";
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 130%;
+}
+
+.card .secondary{
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 130%;
+    color: #727478;
+    margin: 0 0 0 10px;
+}
+
+.kek{
+    display:flex;
+align-self: center;
+justify-content: start;
+margin: 15px 0 0px 0;
+    
+}
+
+.courses h2{
+    font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 120%;
+}
+
+.card  h3, .primary, .kek{
+    padding: 0px 20px;
+}
+
+.second{
+    margin-top: 300px;
+}
+
+
+.img{
+    position: absolute;
+    top: 2px;
+    right: 90px;
+
+    /* border: 1px solid red; */
+    background-image: url("./img1.png");
+    width: 690px;
+    height: 647px;
+
+    z-index: 1;
+
+    /* background-position: 100% 35%; */
+    /* background-size: 570px; */
+    /* background-repeat: no-repeat; */
+}
