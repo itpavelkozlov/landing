@@ -1,0 +1,163 @@
+
+.layout{
+    margin: 0 auto;
+    width: 1440px;
+    height: 100vh;
+    position: relative;
+}
+.container{
+    margin: 0 auto;
+    width: 1110px;
+}
+
+.text-sf-normal{
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 130%;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.wrap-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* UTILS */
+
+header{
+    align-items: center;
+    padding-top: 25px;
+}
+
+header > .logo > h3{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+header > .navbar{
+    width: 475px;  
+    z-index: 2;
+}
+
+header > .login{
+    display:flex;
+    align-self: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+header > .login > p{
+    padding: 0 0 0 8px;
+    margin: 0;
+}
+
+/* LANDING */
+.landing{
+    margin-top: 104px;
+    z-index: 2;
+}
+
+.landing h1{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.landing > p{
+    margin-bottom: 50px;
+    width: 370px;
+}
+
+.landing > button {
+    background-color: #2568EF;
+    width: 230px;
+    height: 56px;
+    border-radius: 16px;
+    border: none;
+    color: #fff;
+
+    font-family: "PT Root UI";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.landing-image{
+    position: absolute;
+    top: 2px;
+    right: 90px;
+    background-image: url("../img/banner-image.png");
+    width: 690px;
+    height: 647px;
+    z-index: 1;
+}
+
+/* CARDS */
+
+.courses{
+    margin-top: 300px;
+}
+
+.courses h2{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 120%;
+}
+
+
+.cards{
+    align-self: center;
+    justify-content: space-between;
+    margin-bottom: 237px;
+}
+.card{
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    width: 350px;
+    height: 422px;
+}
+
+.card > .card-meta, .card-main{
+    padding: 0px 20px;
+}
+
+.card > .card-main > h3{
+    margin: 10px 0 0 0;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+}
+.card > .card-main > p{
+    margin: 10px 0 33px 0;;
+}
+
+.card-meta{
+    display:flex;
+    align-self: center;
+    justify-content: start;
+    margin: 15px 0 0px 0;
+}
+
+.card-meta{
+    display:flex;
+    align-self: center;
+    justify-content: start;
+    margin: 15px 0 0px 0;
+    color: #727478;
+}
+
+.card-meta > p{
+    margin: 0 0 0 10px;
+}
